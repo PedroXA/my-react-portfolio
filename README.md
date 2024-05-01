@@ -11,8 +11,6 @@
 
 ## How to install
 
----
-
 1. Clone the repo using this command on the terminal:
 
 ```
