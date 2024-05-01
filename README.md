@@ -4,7 +4,6 @@
 
 ## Technologies that i used in this project
 
-> [!Tech Stack]
 > - React
 > - Vite
 > - React Routes
