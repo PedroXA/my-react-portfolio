@@ -1,6 +1,6 @@
 # My react portfolio
 
-> A simple project made with **React** to share and demonstrate my craftsmanship with a bunch projects that i've been doing and i'm going to. By now this project's going to pass through for a lot of upgrades by the time. Feel free get along with me and grow up in knowladge together.
+> A simple project made with **React** to share and demonstrate my craftsmanship with a bunch projects that i've been doing and i'm going to. By now this project's going to pass through for a lot of upgrades by the time. Feel free get along with me and grow up in knowledge together.
 
 ## Technologies that i used in this project
 
