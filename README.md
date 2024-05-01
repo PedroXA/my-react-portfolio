@@ -19,7 +19,6 @@ git clone https://github.com/PedroXA/my-react-portfolio.git
 
 ## Executing the project
 
----
 2. To execute the project follow the steps:
 
 ```
