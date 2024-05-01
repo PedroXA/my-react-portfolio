@@ -1,0 +1,10 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30vh auto auto auto;
+}
+
+.introduction{
+    color: white;
+}
