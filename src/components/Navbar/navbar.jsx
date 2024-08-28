@@ -1,6 +1,5 @@
 import "./navbar.css";
 import logo from "../../assets/logo.png"
-import language_globe from "../../assets/language-globe.png"
 
 const navbar = () => {
 	return (
@@ -11,9 +10,9 @@ const navbar = () => {
 				</li>
 			</ul>
 			<ul className="links-end">
-				<li className="link"><img src={language_globe} alt="idioma" width={32}/></li>
-				<li className="link">Início</li>
-				<li className="link">Projetos</li>
+				<li className="link">HOME</li>
+				<li className="link">PROJECTS</li>
+				<li className="link">ABOUT ME</li>
 			</ul>
 		</nav>
 	);
