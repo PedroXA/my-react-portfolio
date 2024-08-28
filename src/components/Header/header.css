@@ -27,4 +27,11 @@
     display: flex;
     gap: 30px;
     padding: 3vw;
+    transition: transform .2s;
+}
+
+.introduction-image-container_image:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s;
 }
