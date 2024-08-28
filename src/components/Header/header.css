@@ -2,9 +2,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30vh auto auto auto;
+    margin: 25vh auto auto auto;
 }
 
 .introduction{
+    color: black;
+}
+
+.introduction-span_frontend-title{
+    background-color: black;
     color: white;
+
+    border-radius: 16px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.introduction-span_name-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.introduction-image-container{
+    display: flex;
+    gap: 30px;
+    padding: 3vw;
 }
