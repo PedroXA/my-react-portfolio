@@ -4,16 +4,21 @@ import logo from "../../assets/logo.png"
 const navbar = () => {
 	return (
 		<nav className="navbar">
-			<ul className="links">
-				<li className="link">
-					<img src={logo} alt="Logo" width={32}/>
-				</li>
-			</ul>
-			<ul className="links-end">
-				<li className="link">HOME</li>
-				<li className="link">PROJECTS</li>
-				<li className="link">ABOUT ME</li>
-			</ul>
+			<div>
+				<ul>
+					<li><span></span>Inicio</li>
+					<li><span></span>Projetos</li>
+					<li><span></span>Galeria</li>
+				</ul>
+			</div>
+
+			<div>
+				<ul>
+					<li><span>Github</span></li>
+					<li><span>LinkedIN</span></li>
+					<li><span>BeHance</span></li>
+				</ul>
+			</div>
 		</nav>
 	);
 };

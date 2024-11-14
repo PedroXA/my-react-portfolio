@@ -7,21 +7,26 @@ const header = () => {
     <header className="introduction">
       <div>
         <h1>
-          <span className="introduction-span_name-title">PEDRO HENRIQUE</span>
+          <span className="introduction-span_name-title">Pedro Xavier</span>
         </h1>
         <h1>
           <span className="introduction-span_frontend-title">
-            FRONT-END DEVELOPER
+            Planejo e desenvolvo interfaces de alta qualidade.
           </span>
         </h1>
       </div>
-      <div className="introduction-image-container">
-        <a href="https://www.linkedin.com/in/pedro-henrique-dos-reis/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinIMG} alt="linkedIN image" height={60} className="introduction-image-container_image"/>
-        </a>
-        <a href="https://github.com/PedroXA" target="_blank" rel="noopener noreferrer">
-          <img src={githubIMG} alt="github image" height={60} className="introduction-image-container_image"/>
-        </a>
+      <div className="introduction-aboutMe-container">
+        <p>
+          Sobre mim
+
+          Desde 2022, entrei na área da tecnologia como Suporte Técnico, 
+          venho explorando esse mundo vasto dentro do ecossistema tanto de UX/UI, 
+          quanto de desenvolvimento Front-end. Atualmente venho prestando servições 
+          para a Rede de Educação - Claretiano, atuando como suporte para a área de 
+          redes de computadores e help desk. Quando não estou na frente de um computador, 
+          eu posso estar tocando bateria, caminhando ou pensando sobre alguma coisa nova 
+          que eu posso estar fazendo.  
+        </p>
       </div>
     </header>
   );

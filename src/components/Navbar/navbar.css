@@ -1,46 +1,12 @@
 .navbar {
 	position: relative;
 	display: flex;
-	top: 2vh;
-	margin: 0 auto;
-	border-radius: 16px;
-	width: 50%;
-	height: 5vh;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	overflow-x: hidden;	
 }
 
-.navbar {
-	background-color: black;
-}
-
-.links{
-    display: flex;
-}
-
-.link:nth-child(1){
-    padding-left: 2vw;
-}
-
-.links-end {
-	display: flex;
-	margin-left: auto;
-	gap: 2vw;
-}
-
-.link:nth-child(3) {
-	padding-right: 2vw;
-}
-
-li {
-	display: flex;
-	align-items: center;
-}
-
-li {
-	cursor: pointer;
+.navbar li {
 	color: white;
-}
-
-li:hover {
-	color: rgb(63, 63, 63);
-	transition: 1s all;
 }
