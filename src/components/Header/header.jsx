@@ -1,6 +1,4 @@
 import "./header.css";
-import linkedinIMG from "../../assets/linkedin.svg";
-import githubIMG from "../../assets/github.svg";
 
 const header = () => {
   return (
