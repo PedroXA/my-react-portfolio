@@ -9,19 +9,19 @@ const navbar = () => {
 		<nav className="navbar">
 			<ul>
 				<li>
-					<Icons.inicio />
+					<Icons.inicio height={16}/>
 					<a href="#">
 						Inicio
 					</a>
 				</li>
 				<li>
-					<Icons.projetos />
+					<Icons.projetos height={16}/>
 					<a href="#">
 						Projetos
 					</a>
 				</li>
 				<li>
-					<Icons.galeria />
+					<Icons.galeria height={16}/>
 					<a href="#">
 						Galeria
 					</a>
@@ -31,17 +31,17 @@ const navbar = () => {
 			<ul className="socials">
 				<li>
 					<a href="http://" target="_blank" rel="noopener noreferrer">
-						<Icons.github />
+						<Icons.github height={32} />
 					</a>
 				</li>
 				<li>
 					<a href="http://" target="_blank" rel="noopener noreferrer">
-						<Icons.linkedin />
+						<Icons.linkedin height={32}/>
 					</a>
 				</li>
 				<li>
 					<a href="http://" target="_blank" rel="noopener noreferrer">
-
+						<Icons.behance height={32}/>
 					</a>
 				</li>
 			</ul>
