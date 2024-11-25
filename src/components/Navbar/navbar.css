@@ -1,11 +1,22 @@
 .navbar {
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	padding: 0px 64px 0px 0px;
 }
 
-.navbar li {
-	color: white;
+.navbar>ul>li {
+	display: flex;
+	gap: 5px;
+}
+
+a {
+	color: var(--text-main-color);
+}
+
+a:hover {}
+
+.socials {
+	display: flex;
+	gap: 12px;
 }
