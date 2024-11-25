@@ -1,22 +1,26 @@
 .navbar {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
 	padding: 0px 64px 0px 0px;
 }
 
 .navbar>ul>li {
 	display: flex;
-	gap: 5px;
+	align-content: start;
+	gap: 7px;
+	padding-top: 12px;
 }
 
 a {
 	color: var(--text-main-color);
 }
 
-a:hover {}
+a:focus {
+	color: var( --bold-color);
+}
 
 .socials {
 	display: flex;
 	gap: 12px;
+	padding-top: 25px;
 }
