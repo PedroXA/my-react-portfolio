@@ -30,8 +30,8 @@ const header = () => {
 
       <div className="experience">
         <h3>Experiência</h3>
-        <img src={logoCotemig} alt="" />
-        <img src={logoClaretiano} alt="" />
+        <img src={logoCotemig} height={84} alt="" />
+        <img src={logoClaretiano} height={84} alt="" />
       </div>
     </header>
   );
