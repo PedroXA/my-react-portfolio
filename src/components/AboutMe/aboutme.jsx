@@ -1,4 +1,6 @@
 import "./aboutme.css";
+import logoClaretiano from "../../utils/logo-claretiano.png";
+import logoCotemig from "../../utils/logo-cotemig.png";
 
 const header = () => {
   return (
@@ -24,6 +26,12 @@ const header = () => {
           <span><strong> redes de computadores</strong></span> e <span><strong>help desk</strong></span>. Quando não estou na frente de um computador,
           eu posso estar tocando bateria, caminhando ou pensando sobre alguma coisa nova que eu posso estar fazendo.
         </p>
+      </div>
+
+      <div className="experience">
+        <h3>Experiência</h3>
+        <img src={logoCotemig} alt="" />
+        <img src={logoClaretiano} alt="" />
       </div>
     </header>
   );
