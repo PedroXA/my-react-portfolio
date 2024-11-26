@@ -1,47 +1,46 @@
 span {
-    color: var(--bold-color);
+  color: var(--bold-color);
 }
 
 .introduction {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 8vh auto auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 8vh auto auto auto;
 }
 
 .title {
-    font-size: 84px;
-    font-weight: bold;
-    color: var(--bold-color);
+  font-size: 84px;
+  font-weight: bold;
+  color: var(--bold-color);
 }
 
 .sub-title {
-    color: var(--text-main-color);
-    font-size: 24px;
-    line-height: 0;
+  color: var(--text-main-color);
+  font-size: 24px;
+  line-height: 0;
 }
-
 
 .about-me {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 
-.about-me>h3 {
-    color: var(--bold-color);
+.about-me > h3 {
+  color: var(--bold-color);
 }
 
-.about-me>p {
-    color: var(--text-main-color);
-    line-height: 27px;
-    text-align: justify;
-    font-weight: 400;
+.about-me > p {
+  color: var(--text-main-color);
+  line-height: 27px;
+  text-align: justify;
+  font-weight: 400;
 }
 
-.experience{
-    color: var(--bold-color);
-    font-weight: 700 !important; 
+.experience {
+  color: var(--bold-color);
+  font-weight: 700 !important;
 }
 
-.experience{
-    padding-top: 32px;
+.experience {
+  padding-top: 32px;
 }
