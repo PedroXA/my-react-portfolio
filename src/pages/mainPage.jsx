@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/navbar.jsx";
 import Header from "../components/AboutMe/aboutme.jsx";
+
 import "./mainPage.css";
 
 const mainPage = () => {
@@ -10,5 +11,4 @@ const mainPage = () => {
     </div>
   );
 };
-
 export default mainPage;

@@ -1,6 +1,7 @@
 import "./aboutme.css";
 import logoClaretiano from "../../utils/logo-claretiano.png";
 import logoCotemig from "../../utils/logo-cotemig.png";
+import projetoCapa from "../../utils/projeto-capa.png";
 
 const header = () => {
   return (
@@ -53,6 +54,21 @@ const header = () => {
         <img src={logoCotemig} height={84} alt="" />
         <img src={logoClaretiano} height={84} alt="" />
       </div>
+
+      <h1 className="title">
+        <b>Projetos</b>
+      </h1>
+      <h4 className="sub-title">
+        Uma pequena amostra do meu trabalho <span>;D</span>
+      </h4>
+
+      <ul className="projects">
+        <li className="projects-cards">
+          <img src={projetoCapa} alt="" />
+          <h3>Lorem ipsum Dolor</h3>
+          <p>Em breve !</p>
+        </li>
+      </ul>
     </header>
   );
 };

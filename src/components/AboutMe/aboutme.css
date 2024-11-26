@@ -3,10 +3,10 @@ span {
 }
 
 .introduction {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin: 8vh auto auto auto;
+  overflow-y: auto;
 }
 
 .title {
@@ -18,7 +18,6 @@ span {
 .sub-title {
   color: var(--text-main-color);
   font-size: 24px;
-  line-height: 0;
 }
 
 .about-me {
@@ -43,4 +42,12 @@ span {
 
 .experience {
   padding-top: 32px;
+}
+
+/* ========= Aba de projetos ============= */
+
+.projects{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
