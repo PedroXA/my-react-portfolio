@@ -84,7 +84,6 @@ export const Icons = {
         width="32"
         height="32"
         stroke="#00CBA2"
-        style={{border: "1px solid black"}}
         fill="#00CBA2"
         viewBox="0 0 256 256"
         {...props}
