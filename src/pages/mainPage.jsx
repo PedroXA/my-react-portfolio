@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar/navbar.jsx";
-import Header from "../components/AboutMe/aboutme.jsx";
+import Hero from "../components/Hero/hero.jsx";
 
 import "./mainPage.css";
 
@@ -7,7 +7,7 @@ const mainPage = () => {
   return (
     <div className="container">
       <Navbar />
-      <Header />
+      <Hero />
     </div>
   );
 };
