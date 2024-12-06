@@ -2,11 +2,16 @@ span {
   color: var(--bold-color);
 }
 
+ul{
+  padding-inline-start: 0;
+}
+
 .introduction {
   flex: 1;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  padding-right: 35%;
 }
 
 .title {
@@ -35,6 +40,8 @@ span {
   font-weight: 400;
 }
 
+/* ========= Experience ========= */
+
 .experience {
   color: var(--bold-color);
   font-weight: 700 !important;
@@ -46,8 +53,18 @@ span {
 
 /* ========= Aba de projetos ============= */
 
-.projects{
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
+
+.projects-cards > h3{
+  color: var(--bold-color);
+} 
+
+.projects-cards > p {
+  color: var(--text-main-color);
+}
+
+
+
+
+.Galery img {
+  margin: 2px;
 }
