@@ -14,8 +14,23 @@
   list-style-type: none;
   font-family: "Inter", sans-serif;
   font-weight: 300;
+  font-size: large;
 }
 
 body {
   background-color: #1B112F;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track { 
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--bold-color); 
+  border-radius: 16px;
 }
