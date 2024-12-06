@@ -5,7 +5,7 @@ import projetoCapa from "../../utils/projeto-capa.png";
 
 const hero = () => {
   return (
-    <header className="introduction">
+    <hero className="introduction">
       <div>
         <h1>
           <span className="title">Pedro Xavier</span>
@@ -68,8 +68,38 @@ const hero = () => {
           <h3>Lorem ipsum Dolor</h3>
           <p>Em breve !</p>
         </li>
+        <li className="projects-cards">
+          <img src={projetoCapa} alt="" />
+          <h3>Lorem ipsum Dolor</h3>
+          <p>Em breve !</p>
+        </li>
+        <li className="projects-cards">
+          <img src={projetoCapa} alt="" />
+          <h3>Lorem ipsum Dolor</h3>
+          <p>Em breve !</p>
+        </li>
       </ul>
-    </header>
+
+      <h1 className="title">
+        <b>Galeria</b>
+      </h1>
+      <h4 className="sub-title">
+        Uma pequena amostra do meu trabalho <span>;D</span>
+      </h4>
+
+      <ul className="Galery">
+        <li>
+          <img src={projetoCapa} height={200} alt="" />
+          <img src={projetoCapa} height={200} alt="" />
+          <img src={projetoCapa} height={200} alt="" />
+        </li>
+        <li>
+          <img src={projetoCapa} height={200} alt="" />
+          <img src={projetoCapa} height={200} alt="" />
+          <img src={projetoCapa} height={200} alt="" />
+        </li>
+      </ul>
+    </hero>
   );
 };
 
