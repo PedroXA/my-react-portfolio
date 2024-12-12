@@ -62,9 +62,7 @@ ul{
   color: var(--text-main-color);
 }
 
-
-
-
-.Galery img {
-  margin: 2px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 }

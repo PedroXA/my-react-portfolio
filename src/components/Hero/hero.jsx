@@ -1,7 +1,16 @@
 import "./hero.css";
-import logoClaretiano from "../../utils/logo-claretiano.png";
-import logoCotemig from "../../utils/logo-cotemig.png";
-import projetoCapa from "../../utils/projeto-capa.png";
+import logoClaretiano from "/logo-claretiano.png";
+import logoCotemig from "/logo-cotemig.png";
+import projetoCapa from "/projeto-capa.png";
+
+const gallery = [
+  {id: 1, src: "/imagem_1.png"},
+  {id: 2, src:"/imagem_2.png"},
+  {id: 3, src:"/imagem_3.png"},
+  {id: 4, src:"/imagem_4.png"}
+];
+
+
 
 const hero = () => {
   return (
@@ -87,17 +96,12 @@ const hero = () => {
         Uma pequena amostra do meu trabalho <span>;D</span>
       </h4>
 
-      <ul className="Galery">
-        <li>
-          <img src={projetoCapa} height={200} alt="" />
-          <img src={projetoCapa} height={200} alt="" />
-          <img src={projetoCapa} height={200} alt="" />
+      <ul className="gallery">
+      {gallery.map((image) => (
+        <li key={image.id}>
+          <img src={image.src} height={250} />
         </li>
-        <li>
-          <img src={projetoCapa} height={200} alt="" />
-          <img src={projetoCapa} height={200} alt="" />
-          <img src={projetoCapa} height={200} alt="" />
-        </li>
+      ))}
       </ul>
     </hero>
   );
