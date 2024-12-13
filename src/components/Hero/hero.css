@@ -12,6 +12,8 @@ ul{
   flex-direction: column;
   overflow-y: auto;
   padding-right: 35%;
+  margin-top: 14dvh;
+  margin-bottom: 14dvh;
 }
 
 .title {
@@ -53,16 +55,66 @@ ul{
 
 /* ========= Aba de projetos ============= */
 
+.projects{
+  display: flex;
+  flex-direction: column;
+}
 
-.projects-cards > h3{
+.projects-cards{
+  display: flex;
+  margin-top: 5px;
+}
+
+.projects-cards div > h3{
   color: var(--bold-color);
 } 
 
-.projects-cards > p {
+.projects-cards div > p {
   color: var(--text-main-color);
 }
 
+
+/* ========= Galeria ============= */
+
 .gallery {
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* ========= Fundo animado ============= */
+
+.slider-thumb::before {
+	position: absolute;
+	content: "";
+	left: 9%;
+	top: 10%;
+	width: 530px;
+	height: 530px;
+	background: var(--secundary-bg-color);
+
+	will-change: border-radius, transform, opacity;
+	animation: sliderShape 5s linear infinite;
+	display: block;
+	z-index: -1;
+	-webkit-animation: sliderShape 5s linear infinite;
+}
+
+@keyframes sliderShape{
+  0%,100%{
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
 }
