@@ -4,18 +4,16 @@ import logoCotemig from "/logo-cotemig.png";
 import projetoCapa from "/projeto-capa.png";
 
 const gallery = [
-  {id: 1, src: "/imagem_1.png"},
-  {id: 2, src:"/imagem_2.png"},
-  {id: 3, src:"/imagem_3.png"},
-  {id: 4, src:"/imagem_4.png"}
+  { id: 1, src: "/imagem_1.png" },
+  { id: 2, src: "/imagem_2.png" },
+  { id: 3, src: "/imagem_3.png" },
+  { id: 4, src: "/imagem_4.png" },
 ];
-
-
 
 const hero = () => {
   return (
-    <hero className="introduction">
-      <div>
+    <hero className="introduction slider-thumb">
+      <div id="home">
         <h1>
           <span className="title">Pedro Xavier</span>
         </h1>
@@ -64,8 +62,8 @@ const hero = () => {
         <img src={logoClaretiano} height={84} alt="" />
       </div>
 
-      <h1 className="title">
-        <b>Projetos</b>
+      <h1 className="title" id="projects">
+        <span className="title">Projetos</span>
       </h1>
       <h4 className="sub-title">
         Uma pequena amostra do meu trabalho <span>;D</span>
@@ -74,34 +72,40 @@ const hero = () => {
       <ul className="projects">
         <li className="projects-cards">
           <img src={projetoCapa} alt="" />
-          <h3>Lorem ipsum Dolor</h3>
-          <p>Em breve !</p>
+          <div>
+            <h3>Em breve!</h3>
+            <p>...</p>
+          </div>
         </li>
         <li className="projects-cards">
           <img src={projetoCapa} alt="" />
-          <h3>Lorem ipsum Dolor</h3>
-          <p>Em breve !</p>
+          <div>
+            <h3>Em breve!</h3>
+            <p>...</p>
+          </div>
         </li>
         <li className="projects-cards">
           <img src={projetoCapa} alt="" />
-          <h3>Lorem ipsum Dolor</h3>
-          <p>Em breve !</p>
+          <div>
+            <h3>Em breve!</h3>
+            <p>...</p>
+          </div>
         </li>
       </ul>
 
       <h1 className="title">
-        <b>Galeria</b>
+        <span className="title">Galeria</span>
       </h1>
       <h4 className="sub-title">
         Uma pequena amostra do meu trabalho <span>;D</span>
       </h4>
 
-      <ul className="gallery">
-      {gallery.map((image) => (
-        <li key={image.id}>
-          <img src={image.src} height={250} />
-        </li>
-      ))}
+      <ul className="gallery" id="gallery">
+        {gallery.map((image) => (
+          <li key={image.id}>
+            <img src={image.src} height={200} />
+          </li>
+        ))}
       </ul>
     </hero>
   );
