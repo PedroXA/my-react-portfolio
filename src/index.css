@@ -15,6 +15,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: large;
+  scroll-behavior: smooth;
 }
 
 body {
